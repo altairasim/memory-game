@@ -1,0 +1,55 @@
+.board {
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  margin: 0;
+  padding: 30px;
+  background-color: #008cba;
+  border: 1px solid white;
+  height: 30px;
+  width: 30px;
+  font-size: 2em;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+  color: transparent;
+  border-radius: 5px;
+}
+.card:hover {
+  background-color: #00abe4;
+}
+.show {
+  color: white;
+}
+.complete {
+  pointer-events: none;
+}
+.container {
+  text-align: center;
+}
+.score {
+  font-size: 1.5em;
+  background-color: #008cba;
+  color: white;
+  width: 200px;
+  border-radius: 10px;
+  margin: 10px auto;
+  padding: 5px 10px;
+}
+#btn {
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: #008cba;
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
+#btn:hover {
+  background-color: #00abe4;
+}
